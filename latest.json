@@ -1,7 +1,7 @@
 {
-  "version": "1.1.1",
+  "version": "1.2.0",
   "minimum_supported_version": "1.0.0",
-  "notes": "广告表格助手 1.1.1\n\n修复安装版点击“检查更新”立即提示网络失败的问题：补齐打包时遗漏的 HTTPS 证书策略文件，继续启用证书及主机名校验。\n增加打包后网络诊断验收入口，不读取表格或记录敏感路径。\nExcel 导入、明细、透视表和安装目录保持原有行为。\n\n1.1.0 因自身更新检查故障，需要关闭程序后手动安装本修复包一次。之后可以继续使用“检查更新”。\n需要 Windows 10/11 64 位和桌面版 Microsoft Excel；当前安装包无发布者数字签名，SHA-256 不等同于数字签名。\n",
-  "installer_url": "https://github.com/UNO1742/adsheet-assistant-releases/releases/download/v1.1.1/AdSheetAssistant-Setup-1.1.1.exe",
-  "sha256": "7c60d27b3edb125cd87b6918f0723d342e53eec42a5c1c839f484d34c8c90ee2"
+  "notes": "广告表格助手 1.2.0\n\n新增普通搜索词指标汇总，计算 CTR、CPC、ACOS、CVR、每单广告费。\n- 原始报告模式保留原始报告、Sheet1、Sheet2，额外生成指标汇总。\n- 已有 Sheet2 可以选择文件继续，或使用当前 Excel 的最新状态（含未保存修改）生成副本。\n- 自动识别透视表范围，排除总计，保留零展示、零点击、零销售、零订单行。\n- A:F 为普通数值，G:K 为可重算的 IF 公式；零分母留空，百分比及金额保留两位小数。\n- 已存在同结构的唯一普通汇总表时复用，避免重复；源文件不覆盖，真实透视表保留。\n- 不执行关键词筛选、词根分析或亚马逊广告调整。\n\n运行需要 Windows 10/11 64位和桌面版 Microsoft Excel。当前未使用代码签名，SHA-256 校验不等同于发布者数字签名。\n",
+  "installer_url": "https://github.com/UNO1742/adsheet-assistant-releases/releases/download/v1.2.0/AdSheetAssistant-Setup-1.2.0.exe",
+  "sha256": "318fb40eff0feef89e6f973f3206dbe9bc621581cb5cfafbd76d55d8173fca1e"
 }

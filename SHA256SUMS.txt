@@ -1,1 +1,1 @@
-7c60d27b3edb125cd87b6918f0723d342e53eec42a5c1c839f484d34c8c90ee2  AdSheetAssistant-Setup-1.1.1.exe
+318fb40eff0feef89e6f973f3206dbe9bc621581cb5cfafbd76d55d8173fca1e  AdSheetAssistant-Setup-1.2.0.exe
